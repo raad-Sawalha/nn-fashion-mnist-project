@@ -1,10 +1,9 @@
-# Image Classification with Deep Learning: Linear, MLP and CNN Comparison
+Image Classification with Deep Learning: Linear, MLP and CNN Comparison
 
-**Course:** 402332 Neural Networks & Deep Learning, Fall 2026/2027
-**Team:** [names and IDs]
-
-## Project goal
-Study how neural-network architecture (linear model, MLP, custom CNN, modern CNN / transfer learning) affects classification quality, training time and model size on **Fashion-MNIST**.
+Names: Ra'ad sawalha , sami khzouz, wisam khzouz
+IDs: 2310234, 2310062, 2310276
+Project goal
+Study how neural-network architecture (linear model, MLP, custom CNN, modern CNN / transfer learning) affects classification quality, training time and model size on Fashion-MNIST
 
 ## Current status: Phase 1
 - [x] Proposal (use case, research question, related work, dataset, split plan)
@@ -14,12 +13,12 @@ Study how neural-network architecture (linear model, MLP, custom CNN, modern CNN
 - [ ] Phase 3: CNNs
 - [ ] Phase 4: final model, demo, report
 
-## Dataset
+Dataset
 Fashion-MNIST (Xiao et al., 2017), 70,000 28x28 grayscale images, 10 classes, MIT license. Downloaded automatically by `torchvision.datasets.FashionMNIST`.
 
 Split: 54,000 train / 6,000 validation (stratified, seed 42) from the official training set. The official 10,000-image test set is used once, in Phase 4.
 
-## Setup
+Setup
 ```bash
 git clone <repo-url>
 cd <repo-folder>
